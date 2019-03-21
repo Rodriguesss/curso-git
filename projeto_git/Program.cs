@@ -44,6 +44,9 @@ namespace projeto_git {
             Console.WriteLine("Como baixar um projeto do GitHub:");
             Console.WriteLine("Clonar: git clone 'link do projeto'");
             Console.WriteLine();
+            Console.WriteLine("Atualizar repositório local:");
+            Console.WriteLine("Comando para atualizar: git pull origin master");
+            Console.WriteLine();
 
         }
     }
