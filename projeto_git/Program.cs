@@ -31,7 +31,7 @@ namespace projeto_git {
             Console.WriteLine();
             Console.WriteLine("Navegar em commits:");
             Console.WriteLine("Entrar em commit: git checkout 'codigo'");
-            Console.WriteLine("Entrar em commit: git checkout 'codigo'");
+            Console.WriteLine("Voltar para commit atual: git checkout 'branch'");
 
         }
     }
