@@ -32,6 +32,11 @@ namespace projeto_git {
             Console.WriteLine("Navegar em commits:");
             Console.WriteLine("Entrar em commit: git checkout 'codigo'");
             Console.WriteLine("Voltar para commit atual: git checkout 'branch'");
+            Console.WriteLine();
+            Console.WriteLine("Vincular repositório remoto ao local:");
+            Console.WriteLine("Para associar: git remote add origin 'URI do repositório remoto'");
+            Console.WriteLine("Associar a um outro respositório remoto: git remote set-url origin 'URI do repositório remoto'");
+            Console.WriteLine();
 
         }
     }
