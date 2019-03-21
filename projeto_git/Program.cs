@@ -37,6 +37,10 @@ namespace projeto_git {
             Console.WriteLine("Para associar: git remote add origin 'URI do repositório remoto'");
             Console.WriteLine("Associar a um outro respositório remoto: git remote set-url origin 'URI do repositório remoto'");
             Console.WriteLine();
+            Console.WriteLine("Subir seu projeto para o GitHub: ");
+            Console.WriteLine("Primeiro push: git push -u origin master");
+            Console.WriteLine("Comando após primeiro push: git push");
+            Console.WriteLine();
 
         }
     }
