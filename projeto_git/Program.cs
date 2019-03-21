@@ -24,7 +24,14 @@ namespace projeto_git {
             Console.WriteLine("Voltar ao ultimo commit:");
             Console.WriteLine("Comando 1: git clean -df");
             Console.WriteLine("Em seguida: git checkout -- .");
-
+            Console.WriteLine();
+            Console.WriteLine("Desfazer ultimo commit:");
+            Console.WriteLine("Desfazendo mas mantendo alterações nos arquivos: git reset --soft HEAD~1");
+            Console.WriteLine("Desfazendo e alterando os arquivos(PERIGOSO): git reset --hard HEAD~1");
+            Console.WriteLine();
+            Console.WriteLine("Navegar em commits:");
+            Console.WriteLine("Entrar em commit: git checkout 'codigo'");
+            Console.WriteLine("Entrar em commit: git checkout 'codigo'");
 
         }
     }
