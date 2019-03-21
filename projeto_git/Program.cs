@@ -41,6 +41,9 @@ namespace projeto_git {
             Console.WriteLine("Primeiro push: git push -u origin master");
             Console.WriteLine("Comando após primeiro push: git push");
             Console.WriteLine();
+            Console.WriteLine("Como baixar um projeto do GitHub:");
+            Console.WriteLine("Clonar: git clone 'link do projeto'");
+            Console.WriteLine();
 
         }
     }
