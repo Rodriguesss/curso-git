@@ -7,7 +7,10 @@ namespace projeto_git {
             Console.WriteLine();
             Console.Write($"Seu nome: ");
             string nome = Console.ReadLine();
-            Console.WriteLine($"Olá {nome}");
+            Console.Write($"Olá {nome}, quantos anos você tem? ");
+            int idade = int.Parse(Console.ReadLine());
+            Console.WriteLine($"Informações: {nome}, {idade} anos.");
+            
         }
     }
 }
